@@ -26,7 +26,6 @@ public class PlayerController : MonoBehaviour
     {
         anim.SetFloat("Speed", Mathf.Abs(rb2d.velocity.x));// para indicar si es izquierda derecha (abs)
         anim.SetBool("Ground", grounded);
-        anim.SetBool("Jump", jump);
 
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {
